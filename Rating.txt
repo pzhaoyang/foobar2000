@@ -1,0 +1,13 @@
+$if(%rating%,$ifequal($meta(rating),10,>>>¡ï¡ï¡ï¡ï¡ï,$ifequal($meta(rating),9,>>¡ï¡ï¡ï¡ï¡î,$ifequal($meta(rating),8,>¡ï¡ï¡ï¡ï,$ifequal($meta(rating),7,¡ï¡ï¡ï¡î,$ifequal($meta(rating),6,<¡ï¡ï¡ï,$ifequal($meta(rating),5,<<¡ï¡ï¡î,$ifequal($meta(rating),4,<<<¡ï¡ï,$ifequal($meta(rating),3,<<<¡ï¡î,$ifequal($meta(rating),2,<<<¡ï,$ifequal($meta(rating),1,<<<¡î,)))))))))),)
+
+
+
+
+
+$if(%rating%,$ifequal($meta(rating),5,¡ï¡ï¡ï¡ï¡ï,$ifequal($meta(rating),4,¡ï¡ï¡ï¡ï¡î,$ifequal($meta(rating),3,¡ï¡ï¡ï¡î¡î,$ifequal($meta(rating),2,¡ï¡ï¡î¡î¡î,$ifequal($meta(rating), 1,¡ï¡î¡î¡î¡î))))),--)
+
+
+$ifequal($meta(rating),5,¡ï¡ï¡ï¡ï¡ï,$ifequal($meta(rating),4,¡ï¡ï¡ï¡ï¡î,$ifequal($meta(rating),3,¡ï¡ï¡ï¡î¡î,$ifequal($meta(rating),2,¡ï¡ï¡î¡î¡î,$ifequal($meta(rating), 1,¡ï¡î¡î¡î¡î,$ifequal($meta(rating),,¡î¡î))))))
+
+
+$repeat(¡ï,$meta(rating))
